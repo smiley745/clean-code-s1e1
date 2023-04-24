@@ -50,11 +50,13 @@
   padding: 0px;
 }
 
-.list-item, .title {
+.list-item,
+.title {
   list-style: none;
 }
 
-.input,.btn{
+.input,
+.btn{
   outline: none;
 }
 
@@ -109,7 +111,7 @@
   margin: 0 0 20px;
 }
 
-.input#new-task {
+.input #new-task {
   width: 318px;
 }
 
@@ -165,11 +167,11 @@
   display: none;
 }
 
-.list .list-item.edit-mode .input[type=text] {
+.list .list-item .edit-mode .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.list .list-item.edit-mode label {
+.list .list-item .edit-mode label {
   display: none;
 }
